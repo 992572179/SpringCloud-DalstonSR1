@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: service-turbine
+server:
+  port: 8770
+security:
+  basic:
+    enabled: false
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: service-hi,service-lucy
+  clusterNameExpression: new String("default")
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
