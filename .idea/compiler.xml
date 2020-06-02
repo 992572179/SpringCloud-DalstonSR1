@@ -24,7 +24,6 @@
         <module name="service-turbine" />
         <module name="service-zuul" />
         <module name="springboot-amqp" />
-        <module name="springboot-helloworld" />
         <module name="springboot-jms (1)" />
         <module name="springboot-jms (2)" />
         <module name="springboot-jpa" />

@@ -20,7 +20,6 @@
       <module fileurl="file://$PROJECT_DIR$/service-turbine-8770/service-turbine.iml" filepath="$PROJECT_DIR$/service-turbine-8770/service-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul-8769/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul-8769/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-amqp/springboot-amqp.iml" filepath="$PROJECT_DIR$/springboot-amqp/springboot-amqp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jms/springboot-jms (1).iml" filepath="$PROJECT_DIR$/springboot-jms/springboot-jms (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jms2/springboot-jms (2).iml" filepath="$PROJECT_DIR$/springboot-jms2/springboot-jms (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />

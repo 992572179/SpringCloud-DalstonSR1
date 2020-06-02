@@ -20,7 +20,6 @@
         <option value="$PROJECT_DIR$/service-miya-8989/pom.xml" />
         <option value="$PROJECT_DIR$/service-turbine-8770/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul-8769/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-amqp/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
