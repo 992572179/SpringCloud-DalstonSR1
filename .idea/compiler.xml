@@ -2,15 +2,66 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-async" />
+        <module name="async" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="consul" />
+        <module name="eureka-client" />
+        <module name="eureka-client-8763" />
+        <module name="eureka-server" />
+        <module name="feign" />
+        <module name="msg" />
+        <module name="scheduledtask" />
+        <module name="server-zipkin" />
+        <module name="service-hi" />
+        <module name="service-miya" />
+        <module name="service-ribbon-hystrixdashboard" />
+        <module name="service-turbine" />
+        <module name="service-zuul" />
+        <module name="springboot-amqp" />
+        <module name="springboot-helloworld" />
+        <module name="springboot-jms (1)" />
+        <module name="springboot-jms (2)" />
+        <module name="springboot-jpa" />
+        <module name="springboot-mongo" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-redis" />
+        <module name="springboot-redis (1)" />
+        <module name="springboot-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springboot-async" target="1.8" />
+      <module name="async" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="consul" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-client-8763" target="1.6" />
+      <module name="eureka-server" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="msg" target="1.8" />
+      <module name="scheduledtask" target="1.8" />
+      <module name="server-zipkin" target="1.8" />
+      <module name="service-hi" target="1.8" />
+      <module name="service-miya" target="1.8" />
+      <module name="service-ribbon-hystrixdashboard" target="1.8" />
+      <module name="service-turbine" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="springboot-amqp" target="1.8" />
+      <module name="springboot-helloworld" target="1.8" />
+      <module name="springboot-jms (1)" target="1.8" />
+      <module name="springboot-jms (2)" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-mongo" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springboot-redis (1)" target="1.8" />
+      <module name="springboot-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/async" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client-8811" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server-8810" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-8502" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-8762" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-8763" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-zipkin-9411" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-miya-8989" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon-hystrixdashboard-8766" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-turbine-8770" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-zuul-8769" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jms2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redlock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-scheduledtask" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-web" charset="UTF-8" />
   </component>
 </project>
