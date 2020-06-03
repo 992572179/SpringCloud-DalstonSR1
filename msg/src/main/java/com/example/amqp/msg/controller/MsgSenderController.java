@@ -6,6 +6,8 @@ import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Date;
+
 @RestController
 public class MsgSenderController {
 
@@ -18,7 +20,8 @@ public class MsgSenderController {
 
 
     @GetMapping("/send")
-    public void sendMsg(){
-        streamClient.output().send(MessageBuilder.withPayload("hello from stream").build());
+    public String sendMsg(){
+        streamClient.output().send(MessageBuilder.withPayload("hello from stream, now :" + new Date()).build());
+        return "success";
     }
 }

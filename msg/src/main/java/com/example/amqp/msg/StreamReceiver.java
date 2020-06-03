@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class StreamReceiver {
 
-    @StreamListener("myMsg")
+    @StreamListener(StreamClient.CHANNEL_NAME)
     public void handMsg(Object msg){
         log.info("handle msg: {}",msg);
     }

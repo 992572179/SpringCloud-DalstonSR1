@@ -5,11 +5,16 @@ import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.SubscribableChannel;
 
+/**
+ * 使用SpringCloudStream，屏蔽掉底层数据库中间件的具体操作，如QueueName、Exchange、RoutingKey等等
+ */
 public interface StreamClient {
 
-    @Input("myMsg")
+    String CHANNEL_NAME ="myMsg";
+
+    @Input(CHANNEL_NAME)
     SubscribableChannel input();
 
-    @Output("myMsg")
+    @Output(CHANNEL_NAME)
     MessageChannel output();
 }
