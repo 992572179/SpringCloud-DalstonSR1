@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud-DalstonSR1.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud-DalstonSR1.iml" />
       <module fileurl="file://$PROJECT_DIR$/async/async.iml" filepath="$PROJECT_DIR$/async/async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-client-8811/config-client.iml" filepath="$PROJECT_DIR$/config-client-8811/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server-8810/config-server.iml" filepath="$PROJECT_DIR$/config-server-8810/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/consul-8502/consul.iml" filepath="$PROJECT_DIR$/consul-8502/consul.iml" />
@@ -28,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redlock/springboot-redis (1).iml" filepath="$PROJECT_DIR$/springboot-redlock/springboot-redis (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springweb-test/springweb-test.iml" filepath="$PROJECT_DIR$/springweb-test/springweb-test.iml" />
     </modules>
   </component>
 </project>

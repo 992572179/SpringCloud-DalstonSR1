@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/springboot-jms2/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/msg/pom.xml" />
+        <option value="$PROJECT_DIR$/springweb-test/pom.xml" />
+        <option value="$PROJECT_DIR$/cache/pom.xml" />
       </list>
     </option>
   </component>

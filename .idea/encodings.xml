@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/async" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-client-8811" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server-8810" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consul-8502" charset="UTF-8" />
@@ -17,7 +18,6 @@
     <file url="file://$PROJECT_DIR$/service-turbine-8770" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-zuul-8769" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-amqp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-helloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jms2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-jpa" charset="UTF-8" />
@@ -27,5 +27,6 @@
     <file url="file://$PROJECT_DIR$/springboot-redlock" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-scheduledtask" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springweb-test" charset="UTF-8" />
   </component>
 </project>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="async" />
+        <module name="cache" />
         <module name="config-client" />
         <module name="config-server" />
         <module name="consul" />
@@ -32,10 +33,12 @@
         <module name="springboot-redis" />
         <module name="springboot-redis (1)" />
         <module name="springboot-web" />
+        <module name="springweb-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="async" target="1.8" />
+      <module name="cache" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="consul" target="1.8" />
@@ -61,6 +64,7 @@
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-redis (1)" target="1.8" />
       <module name="springboot-web" target="1.8" />
+      <module name="springweb-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
