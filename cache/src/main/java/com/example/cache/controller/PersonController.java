@@ -10,27 +10,43 @@ import java.util.List;
 @RestController
 public class PersonController {
 
-    @Autowired
-    PersonService personService;
+    final
+    private PersonService personService;
 
-    @PostMapping("/add")
-    public void addPerson(Person person){
+    @Autowired
+    public PersonController(PersonService personService) {
+        this.personService = personService;
+    }
+
+    @GetMapping("/add")
+    public String addPerson(Person person) {
         personService.addPerson(person);
+        return "success";
     }
 
 
-    @DeleteMapping("/del")
-    public void delPerson(Integer id){
+    @DeleteMapping("/del/{id}")
+    public String delPerson(@PathVariable Integer id) {
         personService.delPerson(id);
+        return "success";
     }
 
     @GetMapping("/get/{id}")
-    public Person searchPerson(@PathVariable Integer id){
+    public Person searchPerson(@PathVariable Integer id) {
         return personService.searchPerson(id);
     }
 
     @GetMapping("/list")
-    public List<Person> listAll(){
+    public List<Person> listAll() {
         return personService.getAll();
+    }
+
+    @PutMapping("/update/{id}")
+    public String updatePerson(@PathVariable Integer id){
+        Person person = personService.searchPerson(id);
+        person.setName("jojo");
+        person.setAddress("tokyo");
+        personService.updatePerson(person);
+        return "success";
     }
 }

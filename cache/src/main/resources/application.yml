@@ -9,6 +9,15 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 2000ms
+    database: 8
+    jedis:
+      pool:
+        time-between-eviction-runs: 60000ms
 server:
   port: 9090
+
 
